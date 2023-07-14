@@ -1,7 +1,7 @@
 import React from 'react'
+import Grid from '@mui/material/Grid'
 import styled from 'styled-components'
 import logo from './logo.svg'
-import Grid from '@mui/material/Grid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -26,18 +26,18 @@ const Icons = styled(Grid)`
 
 function App() {
   return (
-    <Grid container spacing={4}>
-      <Header item sm={12}>
+    <Grid container rowSpacing={4} marginTop={4}>
+      <Header item xs={12}>
         <img src={logo} className="App-logo" alt="logo" />
       </Header>
-      <Content item sm={12}>
+      <Content item xs={12}>
         Computer Science - Web Development - Cat Owner
       </Content>
-      <Icons item sm={12}>
+      <Icons item xs={12}>
         <a href="https://www.linkedin.com/in/ashleyeradford/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon className="Link" icon={faLinkedin} />
         </a>
-        <a href="https://www.linkedin.com/in/ashleyeradford/" target="_blank" rel="noreferrer">
+        <a href="https://github.com/ashleyradford" target="_blank" rel="noreferrer">
           <FontAwesomeIcon className="Link" icon={faGithub} />
         </a>
       </Icons>
