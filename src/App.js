@@ -34,11 +34,11 @@ function App() {
         Computer Science - Web Development - Cat Owner
       </Content>
       <Icons item sm={12}>
-        <a className="LinkedIn" href="https://www.linkedin.com/in/ashleyeradford/">
-          <FontAwesomeIcon icon={faLinkedin} />
+        <a href="https://www.linkedin.com/in/ashleyeradford/" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon className="Link" icon={faLinkedin} />
         </a>
-        <a className="GitHub" href="https://github.com/ashleyradford">
-          <FontAwesomeIcon icon={faGithub} />
+        <a href="https://www.linkedin.com/in/ashleyeradford/" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon className="Link" icon={faGithub} />
         </a>
       </Icons>
     </Grid>
