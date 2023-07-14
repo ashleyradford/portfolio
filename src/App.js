@@ -7,26 +7,25 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <><div class="d-flex flex-column justify-content-center w-100 h-100" /><div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Computer Science - Web Development - Cat Owner
         </p>
         <a
-          className="LinkedIn"
-          href="https://www.linkedin.com/in/ashleyeradford/"
+          href="https://www.linkedin.com/in/ashleyeradford/" target="_blank" rel="noreferrer"
         >
-         <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon className="Link"  icon={faLinkedin} />
         </a>
         <a
-          className="GitHub"
-          href="https://github.com/ashleyradford"
+          href="https://github.com/ashleyradford" target="_blank" rel="noreferrer" 
         >
-         <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon className="Link" icon={faGithub} />
         </a>
       </header>
-    </div>
+    </div></>
+   
   );
 }
 
