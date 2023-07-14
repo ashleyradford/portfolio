@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
 
 function App() {
@@ -8,15 +11,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Computer Science - Web Development - Cat Owner
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          className="LinkedIn"
+          href="https://www.linkedin.com/in/ashleyeradford/"
         >
-          Learn React
+         <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a
+          className="GitHub"
+          href="https://github.com/ashleyradford"
+        >
+         <FontAwesomeIcon icon={faGithub} />
         </a>
       </header>
     </div>
