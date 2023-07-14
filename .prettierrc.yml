@@ -1,0 +1,6 @@
+semi: false
+trailingComma: 'es5'
+singleQuote: true
+printWidth: 1000
+tabWidth: 2
+useTabs: false
